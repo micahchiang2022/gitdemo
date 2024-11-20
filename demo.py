@@ -13,6 +13,5 @@ sys.exit(app.exec_())
 
 def click():
     btn.setText("Clicked")
-    btn.setText("Clicked1")
     
 btn.clicked.connect(click)
