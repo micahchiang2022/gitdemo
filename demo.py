@@ -1,14 +1,14 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow,QLabel,QPushButton
+from PyQt5.QtWidgets import QApplication, QMainwindowsdow,QLabel,QPushButton
 app = QApplication(sys.argv)
-win = QMainWindow()
-win.setGeometry(100, 100, 500, 500)
-win.setWindowTitle('Demo Title')
+windows = QMainwindowsdow()
+windows.setGeometry(100, 100, 500, 500)
+windows.setwindowsdowTitle('Demo Title')
 
-btn = QPushButton("Text", win)
+btn = QPushButton("Text", windows)
 btn.move(100, 100)
 
-win.show()
+windows.show()
 sys.exit(app.exec_())
 
 def click():
